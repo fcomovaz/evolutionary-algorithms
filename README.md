@@ -1,6 +1,6 @@
 # Metaheuristic Algorithms Module
 
-> This module is a collection of evolutionary algorithms implemented in Python. The design is oriented to be simple and easy to use, with a focus on readability and modularity.
+> This module is a collection of metaheuristic/bio-inspired/evolutionary algorithms implemented in Python. The design is oriented to be simple and easy to use, with a focus on readability and modularity.
 
 ## Installation
 
