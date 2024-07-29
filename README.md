@@ -19,4 +19,3 @@ The minimal usage example for each algorithm is in the corresponding folder. The
 1. **Binary Knapsack Problem**: A combinatorial optimization problem where the goal is to maximize the total value of items in a knapsack without exceeding its capacity.
 2. **Continuous Optimization Problem**: A simple optimization problem where the goal is to find the minimum of a function.
 3. **Traveling Salesman Problem**: A combinatorial optimization problem where the goal is to find the shortest path that visits all cities exactly once and returns to the origin city.
-4. **Circle Packing Problem**: A geometric optimization problem where the goal is to pack circles of different sizes into a rectangle without overlapping maximizing the total area. (This problem is not implemented yet).
