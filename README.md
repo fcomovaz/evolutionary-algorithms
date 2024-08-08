@@ -11,6 +11,7 @@ Additionally, each algorithm has a minimal example in the same folder.
 ## Algorithms
 
 - [Genetic Algorithm](GeneticAlgorithm/)
+- [Particle Swarm Optimization](PSO/)
 
 
 ## Examples & Usage
