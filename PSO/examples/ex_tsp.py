@@ -89,15 +89,15 @@ cities = {
 }
 np.random.seed(42)
 pso = PSO(
-    paticle_size=1500,
+    paticle_size=100,
     particle_dimension=len(cities) + 1,
     min_value=0,
-    max_value=len(cities) - 1,
+    max_value=len(cities)-1,
     fitness_function=tsp_fitness_function,
-    self_confidence_c1=2,
-    swarm_confidence_c2=5,
-    inertia_weight_w=0.105,
-    iterations=1500,
+    self_confidence_c1=1,
+    swarm_confidence_c2=8,
+    inertia_weight_w=0.135,
+    iterations=3700,
     minimize=True,
     limit_search_space=True,
     dtype=np.int32,
@@ -107,7 +107,8 @@ pso = PSO(
 best_fitness, best_position = pso.optimize()
 print("\nBest position: ", best_position[-1])
 print("Best fitness: ", best_fitness[-1])
-pso.plot_fitness()
+# pso.plot_fitness()
 best_position = best_position.astype(int)
 cities_selected = [list(cities.keys())[i] for i in best_position[-1]]
 print("Cities selected: ", cities_selected)
+plot_tour(best_position[-1], cities)
